@@ -413,8 +413,8 @@ class DataHandler(object):
     #   self.dynamo_conn
     # except NameError:
     #   self.dynamo_conn = boto.dynamodb.connect_to_region('us-west-2',
-    #           aws_access_key_id='AKIAIG6P4L6HD67BAKXA',
-    #           aws_secret_access_key='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')
+    #           aws_access_key_id='',
+    #           aws_secret_access_key='')
     # else:
     #   pass
     table_name = "OpenBCI" + self.table_name
